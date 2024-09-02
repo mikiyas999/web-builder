@@ -16,7 +16,7 @@ const Page = () => {
         </div>
         <div className="flex items-center justify-center mt-8">
           <ClerkLoaded>
-            <SignIn path="/agency/sign-in" />
+            <SignIn path="/sign-in" />
           </ClerkLoaded>
           <ClerkLoading>
             <Loader className="animate-spin text-muted-foreground" />
@@ -25,8 +25,8 @@ const Page = () => {
       </div>
       <div className="hidden h-full items-center justify-center bg-emerald-500  lg:flex">
         <Image
-          src="/assets/builder-logo.svg"
-          alt="Finance logo"
+          src="/assets/plura-logo.svg"
+          alt="builder logo"
           height={100}
           width={100}
         />

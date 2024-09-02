@@ -16,7 +16,7 @@ const Page = () => {
         </div>
         <div className="flex items-center justify-center mt-8">
           <ClerkLoaded>
-            <SignUp path="/agency/sign-up" />
+            <SignUp path="/sign-up" />
           </ClerkLoaded>
           <ClerkLoading>
             <Loader className="animate-spin text-muted-foreground" />
